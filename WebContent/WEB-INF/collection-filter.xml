@@ -1,0 +1,18 @@
+<!-- Root element of filter, this basically starts a filter -->
+<filter>
+	<include>
+		<node id="user">
+			<include> 
+				<node id="video">
+					<include>
+						<property id="summary" />
+						<property id="genre" />
+						<property id="summaryInEnglish" />
+						<property id="TitleSet_TitleSetInOriginalLanguage_title" />
+						<property id="TitleSet_TitleSetInEnglish_title" />
+					</include>
+				</node>
+			</include>
+		</node>
+	</include>
+</filter>
